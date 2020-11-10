@@ -62,13 +62,11 @@ try:
 
         # Make a square
         sendmsg('up 50')
-        sendmsg('forward 100')
-        sendmsg('cw 90')
-        sendmsg('forward 100')
-        sendmsg('cw 90')
-        sendmsg('forward 100')
-        sendmsg('cw 90')
-        sendmsg('forward 100')
+
+        for i in range(4):
+            sendmsg('forward 100')
+            sendmsg('cw 90')
+
 
 
         sendmsg('land')
