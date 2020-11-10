@@ -50,6 +50,27 @@ def  square():
         sendmsg('forward 100')
         sendmsg('cw 90')
 
+# Make a Stairstep Function
+def staircase():
+    sendmsg('up 50 ')
+    for i in range(3)
+        sendmsg('forward 100')
+        sendmsg('up 25')
+
+# Make a Cross Function
+def cross():
+    sendmsg('up 50')
+    sendmsg('forward 200')
+    sendmsg('cw 180')
+    sendmsg('forward 100')
+    sendmsg('ccw 90')
+    sendmsg('forward 100')
+    sendmsg('cw 180')
+    sendmsg('forward 200')
+    sendmsg('ccw 180')
+    sendmsg('forward 100')
+    sendmsg('cw 90')
+    sendmsg('forward 100')
 
 print("\nMatt Hall")
 print("Program Name: Tello Drone Training School")
